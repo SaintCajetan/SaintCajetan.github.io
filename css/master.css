@@ -1,0 +1,101 @@
+/* Cascading stylesheet for the website */
+
+/* Text inside these asterisks and slashes are comments for human */
+
+  a {
+    /* set the text color to blue here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
+
+  a:hover {
+    /* set the text color to red here */
+    text-decoration: none; /* This means we do not want hyperlinks to be underlined */
+  }
+
+
+
+.topnav {
+    overflow: hidden ;
+    background-color: #3D2C2E;
+}
+
+    .topnav a {
+       
+        float: right;
+        color: #886F68;
+        text-align: center;
+        padding: 50px 50px;
+        text-decoration: none;
+        font-size: 25px;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #D1CCDC;
+            color: white;
+        }
+
+
+
+
+body {
+    margin: 0px;
+    background-color: #424C55;
+    color: #F5EDF0;
+    
+    text-align: center;
+    font:25px garmond;
+}
+
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+   }
+
+h2 {
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+    color: #F5EDF0;
+    /* set the text color of to #075AAB here */
+    /* set both the bottom margin and top margin to 2.5rem here */
+}
+
+  h3 {
+    margin-bottom: 0;
+    margin-top: 2rem;
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  h5 {
+    margin-top: 0.5rem;
+  }
+
+  hr {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+  }
+
+  p {
+      margin: 25px;
+
+  }
+
+  /* this controls how the bullet points in the resume page looks */
+  ul {
+    display: table;
+    margin: 0 auto;
+    text-align: left;
+  }
